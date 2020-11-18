@@ -1,0 +1,149 @@
+
+/*通配选择器清除间隙*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f3ebe1;
+}
+
+.middle{
+    /*上间距*/
+    margin-top: 100px;
+    /*内容居中*/
+    text-align: center;
+}
+
+.middle>img{
+    width: 200px;
+    height: auto;
+}
+
+.input{
+    /*上间距*/
+    margin-top: 25px;
+
+}
+
+/*输入框*/
+
+.input_text{
+    width: 532px;
+    height: 34px;
+    /*左填充*/
+    padding-left: 7px;
+    border-width: 3px;
+    border-color: #686767;
+    border-radius: 15px 15px 15px 15px;
+    outline: none;
+    font-family: 黑体;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#input_button{
+    margin-top: 20px;
+    width: 100px;
+    height: 36px;
+    background-color: #484a50;
+    color: white;
+    font-size: 13px;
+    border: 10px solid #484a50;
+    border-radius: 5px;
+    outline: none;
+    font-weight: bold;
+}
+
+.bottom{
+    /*上间距*/
+    margin-top: 115px;
+    text-align: center;
+}
+
+.bottom img{
+    width: 70px;
+    padding: 0px;
+    border: 0px;
+}
+
+.download{
+
+    /*文本相关*/
+
+    color: #262525;
+
+    font-size: 16px;
+
+    line-height: 32px;
+
+    /*字母间距*/
+
+    letter-spacing: 1px;
+
+    /*字体*/
+
+    font-family: arial;
+
+}
+
+
+
+.look{
+
+    color: #4c4c4c;
+
+    font-size: 14px;
+
+    font-weight: 300;
+
+    line-height: 14px;
+
+}
+
+
+
+.about{
+
+    /*文本相关的属性*/
+
+    color: #999;
+
+    font-size: 12px;
+
+    line-height: 22px;
+
+    font-family: arial;
+
+    /*上间距*/
+
+    margin-top: 25px;
+
+}
+
+
+
+/*  a元素对文字有自己的颜色设置，所以如果想修改a元素中文字的颜色，就必须作用到a标签上的颜色*/
+
+
+
+.about>a{
+
+    color: #999;
+
+    /*右间距*/
+
+    margin-right: 25px;
+
+}
+
+#record{
+
+    /*左间距*/
+
+    margin-left: 15px;
+
+}
+
+
